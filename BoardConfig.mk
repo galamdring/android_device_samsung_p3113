@@ -19,6 +19,10 @@
 
 TARGET_BOARD_INFO_FILE := device/samsung/p3113/board-info.txt
 
+TARGET_ARCH := arm
+TARGET_CPU_VARIANT := cortex-a9
+
+
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/espresso10
 TARGET_KERNEL_CONFIG := cyanogenmod_p3113_defconfig
